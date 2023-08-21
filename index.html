@@ -12,7 +12,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg py-0">
             <div class="container-fluid ColorFondoUno">
                 <a class="navbar-brand" href="#"><img class="logo" src="./img/ICONO_3.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -157,11 +157,11 @@
                             </div>
                         </div>
                         <div class="col-sm-4 col-lg-6 p-4">
-                            <div class="card p-2">
+                            <div class="card p-2 m-4 ColorFondoUno ColorLetrasUno">
                                 <form class="d-flex m-3" role="search">
-                                    <input class="form-control me-2" type="search" placeholder="Search"
+                                    <input class="form-control me-2" type="search" placeholder="Buscar"
                                         aria-label="Search">
-                                    <button class="btn btn-outline-success" type="submit">Search</button>
+
                                 </form>
                                 <br>
                                 <p class="">
@@ -169,26 +169,39 @@
                                     non quae perspiciatis numquam quibusdam debitis deleniti iure, obcaecati
                                     blanditiis.
                                 </p>
+                                <select name="" id="">
+                                    <option value="">Buscar por categorias</option>
+                                    <option value="">Autores</option>
+                                    <option value="">Libros</option>
+                                    <option value="">Poemas</option>
+                                    <option value="">Novelas</option>
+                                    <option value="">Noticias</option>
+                                </select>
                             </div>
                             <div class="card">
-                                <img src="..." class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make
-                                        up
-                                        the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <img src="..." class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make
-                                        up
-                                        the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
+                                <section class="container">
+                                    <div class="row d-flex justify-content-center">
+                                        <div class="card w-25 col-lg-6">
+                                            <img src="/img/coca2.jpg" class="card-img-top" alt="LataCocaCola" />
+                                            <div class="card-body">
+                                                <a class="card-text"> Pag. Coca-Cola </a>
+                                            </div>
+                                        </div>
+                                        <div class="card w-25 col-lg-6">
+                                            <img src="/img/fanta.jpg" class="card-img-top" alt="LataFantaNaranja" />
+                                            <div class="card-body">
+                                                <a class="card-text"> Pag. Fanta </a>
+                                            </div>
+                                        </div>
+                                        <div class="card w-25 col-lg-6">
+                                            <img src="/img/sprite.jpg" class="card-img-top" alt="BotellaVidrioSprite" />
+                                            <div class="card-body">
+                                                <a class="card-text"> Pag. Sprite </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+
                             </div>
                         </div>
                     </div>
@@ -210,7 +223,7 @@
 
             <div class="col-sm-12 col-md-4 d-flex justify-content-center mt-3">
                 <div>
-                    <h3 class="text-black m-auto">Seguinos</h3>
+                    <h3 class="text-black m-auto text-center">Seguinos</h3>
                     <div class="redes sociales">
                         <br>
                         <a href="">
